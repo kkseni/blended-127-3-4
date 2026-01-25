@@ -4,24 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YachtJet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+      integrity="sha512-6vVDKjypi9edZc0plLTyYuWSM6E+oQCH9cJbsaKFvsajojwPjgqutD5mypLKUalFKV7blxIwqTNAxD2CW1XiNw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- (nav>a+(ul>li*3>a))+ul>li*3>a -->
-      <nav>
-        <a href="./index.html">yachtjet</a>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#yachts">Yachts</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li><a href="https://www.instagram.com/" target="_blank">i</a></li>
-        <li><a href="https://www.youtube.com/" target="_blank">y</a></li>
-        <li><a href="https://www.facebook.com/" target="_blank">f</a></li>
-      </ul>
-    </header>
+    
+      <header class="main-header">
+        <!-- (nav>a+(ul>li*3>a))+ul>li*3>a -->
+        <div class="container header-container">
+          <nav class="main-navigation">
+            <a href="./index.html" class="main-logo">yachtjet</a>
+            <ul class="navigation-list">
+              <li class="navigation-list-item">
+                <a href="#about" class="navigation-item-link">About</a>
+              </li>
+              <li class="navigation-list-item">
+                <a href="#yachts" class="navigation-item-link">Yachts</a>
+              </li>
+              <li class="navigation-list-item">
+                <a href="#reviews" class="navigation-item-link">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-social-list">
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="header-social-link"
+                >i</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="header-social-link"
+                >y</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="header-social-link"
+                >f</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    
     <main>
       <section>
         <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
