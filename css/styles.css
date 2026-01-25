@@ -49,8 +49,8 @@ ol {
     margin: 0 auto;
     padding: 4px 0;
     position: absolute;
-    top:32px;
-    left:100px;
+    top: 32px;
+    left: 100px;
 }
 
 .header-container {
@@ -117,4 +117,94 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    max-width: 1001px;
+
+    margin: 0 auto 24px;
+}
+
+.hero {
+    padding: 235px 0 180px;
+}
+
+.main-title {}
+
+.hero-descr {
+    max-width: 597px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 48px;
+}
+
+.hero-link {
+    border-radius: 15px;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    background: #1b414b;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+
+/* section about */
+.about {}
+
+.container {}
+
+.about-yahtfleet {
+    border-radius: 24px;
+    background: #fbfbfb;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 675px; */
+}
+
+.yahtfleet-wrap {
+    width: 354px;
+}
+
+.yachtfleet {
+    width: 537px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.yachtfleet-subtitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+
+.yachtfleet-descr {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
 }
