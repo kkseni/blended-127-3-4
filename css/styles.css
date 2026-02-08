@@ -127,8 +127,8 @@ ol {
 }
 
 .header-social-link:hover .header-soc-link-svg,
-.header-social-link:focus .header-soc-link-svg{
-   fill: #062730;
+.header-social-link:focus .header-soc-link-svg {
+    fill: #062730;
 }
 
 .main-title {
@@ -227,4 +227,82 @@ ol {
     letter-spacing: -0.02em;
     color: #040306;
     opacity: 0.4;
+}
+
+
+/* rental */
+.rental {
+    padding: 75px 0;
+}
+
+.rental .container {
+    display: flex;
+    gap: 50px;
+}
+
+.rent-image {
+    border-radius: 24px;
+}
+
+.rental-wrap {}
+
+.rental-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 50px;
+}
+
+.rental-form {}
+
+.rental-form-box {
+    margin-bottom: 18px;
+}
+
+.rental-form-label {}
+
+.rental-form-input {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    background-color: inherit;
+    padding: 18px;
+    width: 472px;
+    height: 54px;
+    color: rgba(251, 251, 251, 0.4);
+    outline: none;
+}
+
+.rental-form-input::placeholder,
+.rental-form-comment::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: rgba(251, 251, 251, 0.4);
+}
+
+.rental-form-comment {
+    background-color: inherit;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 18px;
+    width: 472px;
+    height: 116px;
+    resize: none;
+    outline: none;
+}
+
+.form-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    background: #1b414b;
+    border: none;
 }
