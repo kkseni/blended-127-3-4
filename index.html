@@ -66,7 +66,7 @@
         surrounded by breathtaking views and state-of-the-art amenities.
       </p>
 
-      <a href="" class="hero-link">Yacht rental</a>
+      <a href="#rental" class="hero-link">Yacht rental</a>
     </section>
     <section id="about" class="about">
       <div class="container">
@@ -149,7 +149,35 @@
         </li>
       </ul>
     </section>
-    <section id="reviews"></section>
+    <section id="rental" class="rental">
+      <!-- div.container>img+div.reviews-wrap>h2+form>(div*4>label>input)+button -->
+      <div class="container">
+        <img src="./images/rentayacht.png" alt="rental" class="rent-image"/>
+        <div class="rental-wrap">
+          <h2 class="rental-title">Rent a yacht now</h2>
+          <form class="rental-form">
+            <div class="rental-form-box">
+              <label class="rental-form-label" name="username"><input type="text" class="rental-form-input"
+                  placeholder="Full Name" pattern="[A-Za-z]+" required /></label>
+            </div>
+            <div class="rental-form-box">
+              <label class="rental-form-label" name="useremail"><input type="email" class="rental-form-input"
+                  placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required /></label>
+            </div>
+            <div class="rental-form-box">
+              <label class="rental-form-label"><input type="tel" class="rental-form-input" placeholder="Phone number"
+                  pattern="(\+38)?0\d{9}" required /></label>
+            </div>
+            <div class="rental-form-box">
+              <label class="rental-form-label" name="tel">
+                <textarea name="comment" id="" class="rental-form-comment" placeholder="Comment"></textarea>
+              </label>
+            </div>
+            <button type="submit" class="form-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>
