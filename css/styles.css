@@ -63,9 +63,6 @@ ol {
     width: 1080px;
 }
 
-/* .main-header .container{display: flex;} */
-
-
 .main-navigation {
     display: flex;
     align-items: center;
@@ -84,8 +81,6 @@ ol {
     align-items: center;
     gap: 4px;
 }
-
-.navigation-list-item {}
 
 .navigation-item-link {
     font-weight: 400;
@@ -113,8 +108,6 @@ ol {
     align-items: center;
     gap: 8px;
 }
-
-.social-item {}
 
 .header-social-link {
     background: #fbfbfb;
